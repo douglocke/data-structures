@@ -1,4 +1,4 @@
-// Week5 Assignment
+// Assignment 6
 var AWS = require('aws-sdk');
 AWS.config = new AWS.Config();
 AWS.config.accessKeyId = process.env.AWS_ID;
