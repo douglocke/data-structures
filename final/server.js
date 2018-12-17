@@ -26,6 +26,51 @@ AWS.config.region = "us-east-1";
 
 // respond to requests for /sensor
 //each app has a section for handling request
+
+
+var mnu = `
+<!doctype html>
+  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Data Structures Assignments</title>
+  <meta name="description" content="data structures parsons">
+  <meta name="author" content="Doug Locke">
+
+  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
+
+</head>
+
+<body>
+<h3>Douglas Locke</h3><br> 
+<h3>Data Structures - Final Assignments </h3>
+    <ul>
+        <li><a href="http://localhost:8080/aameetings">AA Meetings - NYC</a></li>
+        <li><a href="http://localhost:8080/deardiary">Dear Diary - What was I reading this fall?</a></li>
+        <li><a href="http://localhost:8080/sensor">Sensor Data - A house tour of 3 rooms</a></li>
+    </ul>
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>`
+
+
+
+app.get('/menu', function(req, res) {
+
+console.log('Respond to menu request')
+            res.send(mnu);
+});
+
+
+app.get('/', function(req, res) {
+
+console.log('Respond to menu request')
+            res.send(mnu);
+});
+
+
 app.get('/sensor', function(req, res) {
     
     // Connect to the AWS RDS Postgres database
