@@ -1,14 +1,15 @@
-Douglas Locke
-Data Structures Final Projects
+<h2>Douglas Locke</h2>
+<h2>Data Structures Final Projects</h2>
 
 All 3 projects use a single server.js file.
 Server is executed using "node server.js"
 A default menu is generated upon "http://localhost:8080" or by passing "/menu".
 
-<h2>Video</h2>
-Neither beanstalk or Cloud9 was cooperating for me.
-I recorded a video of the app running on my local server.
+<h2>Link</h2>
+<a href="https://bit.ly/2ChvRqe">Live app running on AWS Beanstalk</a>
 
+<h2>Video</h2>
+I recorded a video of the app running on my local server.
 <a href="https://www.youtube.com/watch?v=tfoUrmRGD1g&feature=youtu.be">
 Video Link
 </a>
